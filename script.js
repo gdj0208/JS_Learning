@@ -14,10 +14,10 @@ const savedUsername = localStorage.getItem(USERNAME_KEY);
 
 let id;
 let prev_class;
+let testcase;
 
 function onLoginSubmit(event) {
     event.preventDefault();
-
 
     id = login_input.value;
     prev_class = login_input.classList.add(HIDDEN_KEY);
